@@ -6,6 +6,10 @@ import time
 
 import pandas as pd
 
+# add the path to sys
+import sys
+sys.path.append(os.path.abspath('..'))
+
 from dataset import AuxTables
 from dataset.table import Table, Source
 from utils import NULL_REPR
